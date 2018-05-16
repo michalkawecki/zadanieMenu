@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+div {
+    padding: 20px;
+}
+
+nav {
+    width: 100%; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.top {
+    position: relative;
+    float: left;
+    min-height: 150px;
+    width: 50%;
+}
+
+.one {
+    background-image: linear-gradient(175deg, #004E95 50%, #FFF 50%);
+}
+
+.two {
+    background-image: linear-gradient(-175deg, #004E95 50%, #FFF 50%);
+    text-align: right;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 0;
+}
